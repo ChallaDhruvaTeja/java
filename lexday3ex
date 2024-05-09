@@ -1,0 +1,26 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+
+class Main {
+    public static void main(String[] args) {
+      Animal A1=new Animal();
+        A1.classy1();
+        Dog D1=new Dog();
+        D1.classy2();
+        D1.classy1();
+    }
+}
+class Animal{
+    public void classy1()
+    {
+        System.out.println("i am parent class");
+    }
+}
+class Dog extends Animal{
+    public void classy2()
+    {
+        System.out.println("i am subclass");
+    }
+    }
