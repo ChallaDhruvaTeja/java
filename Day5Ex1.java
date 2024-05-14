@@ -13,13 +13,13 @@ public class Day5Ex1 {
 abstract class Parent{
 	public  abstract void message();
 }
-class Subclass1{
+class Subclass1 extends Parent{
 	public void message()
 	{
 		System.out.println("first sub class");
 	}
 }
-class Subclass2{
+class Subclass2 extends Parent{
 	public void message()
 	{
 		System.out.println("second sub class");
